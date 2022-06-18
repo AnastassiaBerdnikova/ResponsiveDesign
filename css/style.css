@@ -1,0 +1,93 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+
+
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-image: url('../images/pexels-dmitriy-ganin-12244373.jpg');
+    background-size: cover;
+    
+
+}
+.profile-text h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.profile-text ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer ul li {
+    margin-top: 1rem;
+    display: inline-block;
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    body {
+    
+
+        background-color: rgb(38, 38, 97);
+    }
+    .profile-image {
+        background-image: url('../images/pexels-jan-van-der-wolf-9989921.jpg');
+
+    
+    }
+    .container {
+        color: #fff;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(182, 182, 131);
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .profile-image {
+        background-image: url('../images/pexels-cottonbro-4972605.jpg');
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .footer ul {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .footer ul li {
+        display: block;
+        margin: 1rem;
+
+    }
+    
+}
